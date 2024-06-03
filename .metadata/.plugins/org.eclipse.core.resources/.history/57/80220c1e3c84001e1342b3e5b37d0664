@@ -1,0 +1,27 @@
+/*
+ * single.c
+ *
+ *  Created on: 16-Nov-2023
+ *      Author: Prasanna Kumar
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+struct node
+{
+	int value;
+	struct node *next;
+};
+
+int main()
+{
+	//Creating Node
+	struct node *one;
+	struct node *two;
+	struct node *three;
+
+	one = malloc(sizeof(struct node));
+
+}

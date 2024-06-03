@@ -1,0 +1,21 @@
+/*
+ * single.c
+ *
+ *  Created on: 16-Nov-2023
+ *      Author: Prasanna Kumar
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+struct node
+{
+	int value;
+	struct *next;
+};
+
+int main()
+{
+
+}

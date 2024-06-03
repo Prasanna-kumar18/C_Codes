@@ -1,0 +1,10 @@
+16:11:16 **** Incremental Build of configuration Debug for project linked_list ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o add_list.o "..\\add_list.c" 
+..\add_list.c:20:21: warning: 'newnode' defined but not used [-Wunused-variable]
+   20 | static struct node *newnode;
+      |                     ^~~~~~~
+g++ -o linked_list.exe add_list.o 
+
+16:11:17 Build Finished. 0 errors, 1 warnings. (took 962ms)
+

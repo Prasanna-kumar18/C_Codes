@@ -1,0 +1,4 @@
+11:24:53 **** Incremental Build of configuration Debug for project LInked_List_Conti ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Single_Link.o "..\\Single_Link.c" 
+gcc -o LInked_List_Conti.exe Single_Link.o 

@@ -1,0 +1,98 @@
+2023-08-18 18:43:33,142 [INFO] Activator:176 - 
+
+
+2023-08-18 18:43:33,151 [INFO] Activator:177 - !SESSION log4j initialized
+2023-08-18 18:43:50,700 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-08-18 18:44:24,186 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-08-18 18:44:24,186 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-08-18 18:44:24,191 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-08-18 18:46:50,495 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:50,497 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:50,500 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:50,503 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:50,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:50,511 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.model.CallGraph.fromInstructions(CallGraph.java:61)
+2023-08-18 18:46:50,514 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.inputChanged(CyclomaticView.java:699)
+2023-08-18 18:46:50,517 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.lambda$2(CyclomaticView.java:497)
+2023-08-18 18:46:50,519 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-08-18 18:46:50,527 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:50,529 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:50,530 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:50,533 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:50,537 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:50,540 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.model.CallGraph.fromInstructions(CallGraph.java:61)
+2023-08-18 18:46:50,543 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.inputChanged(CyclomaticView.java:699)
+2023-08-18 18:46:50,545 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.lambda$2(CyclomaticView.java:497)
+2023-08-18 18:46:50,548 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-08-18 18:46:50,551 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:50,552 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:50,554 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:50,557 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:50,560 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:50,564 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.model.CallGraph.fromInstructions(CallGraph.java:61)
+2023-08-18 18:46:50,567 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.inputChanged(CyclomaticView.java:699)
+2023-08-18 18:46:50,570 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.lambda$2(CyclomaticView.java:497)
+2023-08-18 18:46:50,571 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-08-18 18:46:50,575 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:50,579 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:50,581 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:50,586 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:50,589 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:50,593 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.model.CallGraph.fromInstructions(CallGraph.java:61)
+2023-08-18 18:46:50,597 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.inputChanged(CyclomaticView.java:699)
+2023-08-18 18:46:50,599 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.lambda$2(CyclomaticView.java:497)
+2023-08-18 18:46:50,601 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-08-18 18:46:50,604 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:50,606 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:50,608 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:50,612 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:50,616 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:50,619 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.model.CallGraph.fromInstructions(CallGraph.java:61)
+2023-08-18 18:46:50,622 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.inputChanged(CyclomaticView.java:699)
+2023-08-18 18:46:50,626 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.cyclomaticcomplexity.CyclomaticView.lambda$2(CyclomaticView.java:497)
+2023-08-18 18:46:50,628 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-08-18 18:46:51,116 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:51,118 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:51,121 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:51,124 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:51,127 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:51,130 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.CallGraph.fromInstructions(CallGraph.java:66)
+2023-08-18 18:46:51,133 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:960)
+2023-08-18 18:46:51,136 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$16(StackAnalyzerView.java:1327)
+2023-08-18 18:46:51,137 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-08-18 18:46:51,144 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:51,146 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:51,148 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:51,151 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:51,154 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:51,157 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.CallGraph.fromInstructions(CallGraph.java:66)
+2023-08-18 18:46:51,160 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:960)
+2023-08-18 18:46:51,162 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$16(StackAnalyzerView.java:1327)
+2023-08-18 18:46:51,164 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-08-18 18:46:51,166 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:51,168 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:51,170 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:51,173 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:51,177 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:51,180 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.CallGraph.fromInstructions(CallGraph.java:66)
+2023-08-18 18:46:51,183 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:960)
+2023-08-18 18:46:51,185 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$16(StackAnalyzerView.java:1327)
+2023-08-18 18:46:51,187 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-08-18 18:46:51,190 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:51,192 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:51,194 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:51,197 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:51,201 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:51,204 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.CallGraph.fromInstructions(CallGraph.java:66)
+2023-08-18 18:46:51,207 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:960)
+2023-08-18 18:46:51,210 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$16(StackAnalyzerView.java:1327)
+2023-08-18 18:46:51,212 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-08-18 18:46:51,214 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2023-08-18 18:46:51,216 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+2023-08-18 18:46:51,218 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.String.substring(String.java:1874)
+2023-08-18 18:46:51,221 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.calcJumpInstructionDirect(InstructionRecord.java:190)
+2023-08-18 18:46:51,224 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.utils.assembly.InstructionRecord.isJumpInstructionDirect(InstructionRecord.java:153)
+2023-08-18 18:46:51,226 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.CallGraph.fromInstructions(CallGraph.java:66)
+2023-08-18 18:46:51,229 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:960)
+2023-08-18 18:46:51,232 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$16(StackAnalyzerView.java:1327)
+2023-08-18 18:46:51,234 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:829)

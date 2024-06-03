@@ -1,0 +1,10 @@
+19:34:25 **** Incremental Build of configuration Debug for project G0_I2C_Rx ****
+make -j4 all 
+arm-none-eabi-size   G0_I2C_Rx.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12472	     20	   1660	  14152	   3748	G0_I2C_Rx.elf
+Finished building: default.size.stdout
+ 
+
+19:34:25 Build Finished. 0 errors, 0 warnings. (took 518ms)
+
